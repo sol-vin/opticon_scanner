@@ -1,0 +1,112 @@
+# Logfile created on 2016-06-02 13:12:48 -0700 by logger.rb/47272
+I, [2016-06-02T13:16:10.828037 #10531]  INFO -- : [opticon.rb]Searching for opticons
+I, [2016-06-02T13:16:18.287493 #10531]  INFO -- : [opticon.rb]Searching for opticons
+I, [2016-06-02T13:18:20.815171 #10636]  INFO -- : [opticon.rb] Refreshing settings on AUN(/dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.0-port0
+I, [2016-06-02T13:18:20.915013 #10636]  INFO -- : [command.rb]Running command get_settings[] on AUN(/dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.0-port0
+I, [2016-06-02T13:18:22.015127 #10636]  INFO -- : [command.rb]Ran command get_settings[] on AUN(/dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.0-port0
+I, [2016-06-02T13:18:26.526869 #10636]  INFO -- : [opticon.rb]Finished getting settings for 000724
+I, [2016-06-02T13:18:26.621305 #10636]  INFO -- : [command.rb]Running command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:18:27.621652 #10636]  INFO -- : [command.rb]Ran command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:18:27.621801 #10636]  INFO -- : [opticon_port.rb] read_block 7
+I, [2016-06-02T13:18:27.621907 #10636]  INFO -- : [opticon.rb] Found scanner 000724
+I, [2016-06-02T13:18:27.721893 #10636]  INFO -- : [command.rb]Running command good_beep[] on 000724
+I, [2016-06-02T13:18:28.722324 #10636]  INFO -- : [command.rb]Ran command good_beep[] on 000724
+I, [2016-06-02T13:18:33.277928 #10636]  INFO -- : [command.rb]Running command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:18:34.278353 #10636]  INFO -- : [command.rb]Ran command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:18:34.278584 #10636]  INFO -- : [opticon_port.rb] read_block 7
+I, [2016-06-02T13:18:34.279023 #10636]  INFO -- : [command.rb]Running command trigger[] on 000724
+I, [2016-06-02T13:18:35.279358 #10636]  INFO -- : [command.rb]Ran command trigger[] on 000724
+I, [2016-06-02T13:19:47.924563 #10669]  INFO -- : [opticon.rb] Refreshing settings on AUN(/dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.0-port0
+I, [2016-06-02T13:19:48.024360 #10669]  INFO -- : [command.rb]Running command get_settings[] on AUN(/dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.0-port0
+I, [2016-06-02T13:19:49.124438 #10669]  INFO -- : [command.rb]Ran command get_settings[] on AUN(/dev/serial/by-path/pci-0000:00:14.0-usb-0:2:1.0-port0
+I, [2016-06-02T13:19:53.034548 #10669]  INFO -- : [opticon.rb]Finished getting settings for 000724
+I, [2016-06-02T13:19:53.129754 #10669]  INFO -- : [command.rb]Running command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:19:54.130058 #10669]  INFO -- : [command.rb]Ran command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:19:54.130239 #10669]  INFO -- : [opticon_port.rb] read_block 7
+I, [2016-06-02T13:19:54.130363 #10669]  INFO -- : [opticon.rb] Found scanner 000724
+I, [2016-06-02T13:19:54.130479 #10669]  INFO -- : [opticon.rb]Searching for opticons
+I, [2016-06-02T13:19:54.130705 #10669]  INFO -- : [command.rb]Running command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:19:55.131103 #10669]  INFO -- : [command.rb]Ran command get_scan_count_raw[] on 000724
+I, [2016-06-02T13:19:55.131810 #10669]  INFO -- : [opticon_port.rb] read_block 7
+I, [2016-06-02T13:19:55.235325 #10669]  INFO -- : [opticon_refurbisher.rb] Running refurb defaults on 000724
+I, [2016-06-02T13:19:55.235551 #10669]  INFO -- : [command.rb]Running command clear_memory[] on 000724
+I, [2016-06-02T13:19:56.235819 #10669]  INFO -- : [command.rb]Ran command clear_memory[] on 000724
+I, [2016-06-02T13:20:01.236605 #10669]  INFO -- : [command.rb]Running command rs232_delay_none[] on 000724
+I, [2016-06-02T13:20:02.236936 #10669]  INFO -- : [command.rb]Ran command rs232_delay_none[] on 000724
+I, [2016-06-02T13:20:02.237166 #10669]  INFO -- : [command.rb]Running command key_lang_us[] on 000724
+I, [2016-06-02T13:20:03.237469 #10669]  INFO -- : [command.rb]Ran command key_lang_us[] on 000724
+I, [2016-06-02T13:20:03.237604 #10669]  INFO -- : [command.rb]Running command enable_auto_connect[] on 000724
+I, [2016-06-02T13:20:04.238051 #10669]  INFO -- : [command.rb]Ran command enable_auto_connect[] on 000724
+I, [2016-06-02T13:20:04.238409 #10669]  INFO -- : [command.rb]Running command auto_disconnect_disabled[] on 000724
+I, [2016-06-02T13:20:05.239171 #10669]  INFO -- : [command.rb]Ran command auto_disconnect_disabled[] on 000724
+I, [2016-06-02T13:20:05.239533 #10669]  INFO -- : [command.rb]Running command auto_reconnect_5m[] on 000724
+I, [2016-06-02T13:20:06.240033 #10669]  INFO -- : [command.rb]Ran command auto_reconnect_5m[] on 000724
+I, [2016-06-02T13:20:06.240527 #10669]  INFO -- : [command.rb]Running command power_save_level0[] on 000724
+I, [2016-06-02T13:20:07.242065 #10669]  INFO -- : [command.rb]Ran command power_save_level0[] on 000724
+I, [2016-06-02T13:20:07.242400 #10669]  INFO -- : [command.rb]Running command enable_memory[] on 000724
+I, [2016-06-02T13:20:08.242762 #10669]  INFO -- : [command.rb]Ran command enable_memory[] on 000724
+I, [2016-06-02T13:20:08.243126 #10669]  INFO -- : [command.rb]Running command always_memorize_batch[] on 000724
+I, [2016-06-02T13:20:09.243592 #10669]  INFO -- : [command.rb]Ran command always_memorize_batch[] on 000724
+I, [2016-06-02T13:20:09.243901 #10669]  INFO -- : [command.rb]Running command blank_preamble[] on 000724
+I, [2016-06-02T13:20:10.244203 #10669]  INFO -- : [command.rb]Ran command blank_preamble[] on 000724
+I, [2016-06-02T13:20:10.244467 #10669]  INFO -- : [command.rb]Running command blank_postamble[] on 000724
+I, [2016-06-02T13:20:11.244824 #10669]  INFO -- : [command.rb]Ran command blank_postamble[] on 000724
+I, [2016-06-02T13:20:11.245486 #10669]  INFO -- : [command.rb]Running command clear_prefix[] on 000724
+I, [2016-06-02T13:20:12.246593 #10669]  INFO -- : [command.rb]Ran command clear_prefix[] on 000724
+I, [2016-06-02T13:20:12.247031 #10669]  INFO -- : [command.rb]Running command clear_suffix[] on 000724
+I, [2016-06-02T13:20:13.247489 #10669]  INFO -- : [command.rb]Ran command clear_suffix[] on 000724
+I, [2016-06-02T13:20:13.248144 #10669]  INFO -- : [command.rb]Running command blank_sio_prefix[] on 000724
+I, [2016-06-02T13:20:14.248667 #10669]  INFO -- : [command.rb]Ran command blank_sio_prefix[] on 000724
+I, [2016-06-02T13:20:14.249316 #10669]  INFO -- : [command.rb]Running command set_suffix["\r"] on 000724
+I, [2016-06-02T13:20:15.249992 #10669]  INFO -- : [command.rb]Ran command set_suffix["\r"] on 000724
+I, [2016-06-02T13:20:15.250391 #10669]  INFO -- : [command.rb]Running command enable_all_codes[] on 000724
+I, [2016-06-02T13:20:16.250794 #10669]  INFO -- : [command.rb]Ran command enable_all_codes[] on 000724
+I, [2016-06-02T13:20:16.251590 #10669]  INFO -- : [command.rb]Running command single_read[] on 000724
+I, [2016-06-02T13:20:17.252521 #10669]  INFO -- : [command.rb]Ran command single_read[] on 000724
+I, [2016-06-02T13:20:17.252763 #10669]  INFO -- : [opticon.rb] Refreshing settings on 000724
+I, [2016-06-02T13:20:17.253289 #10669]  INFO -- : [command.rb]Running command get_settings[] on 000724
+I, [2016-06-02T13:20:18.253637 #10669]  INFO -- : [command.rb]Ran command get_settings[] on 000724
+I, [2016-06-02T13:20:22.027719 #10669]  INFO -- : [opticon.rb]Finished getting settings for 000724
+I, [2016-06-02T13:20:22.028005 #10669]  INFO -- : [command.rb]Running command enable_trigger[] on 000724
+I, [2016-06-02T13:20:23.028437 #10669]  INFO -- : [command.rb]Ran command enable_trigger[] on 000724
+I, [2016-06-02T13:20:23.029155 #10669]  INFO -- : [command.rb]Running command disable_trigger_repeat[] on 000724
+I, [2016-06-02T13:20:24.029662 #10669]  INFO -- : [command.rb]Ran command disable_trigger_repeat[] on 000724
+I, [2016-06-02T13:20:24.030178 #10669]  INFO -- : [command.rb]Running command read_time_2s[] on 000724
+I, [2016-06-02T13:20:25.030520 #10669]  INFO -- : [command.rb]Ran command read_time_2s[] on 000724
+I, [2016-06-02T13:20:25.030966 #10669]  INFO -- : [command.rb]Running command read_positive_codes[] on 000724
+I, [2016-06-02T13:20:26.031410 #10669]  INFO -- : [command.rb]Ran command read_positive_codes[] on 000724
+I, [2016-06-02T13:20:26.031632 #10669]  INFO -- : [command.rb]Running command enable_floodlight[] on 000724
+I, [2016-06-02T13:20:27.031927 #10669]  INFO -- : [command.rb]Ran command enable_floodlight[] on 000724
+I, [2016-06-02T13:20:27.032198 #10669]  INFO -- : [command.rb]Running command enable_buzzer[] on 000724
+I, [2016-06-02T13:20:28.033058 #10669]  INFO -- : [command.rb]Ran command enable_buzzer[] on 000724
+I, [2016-06-02T13:20:28.033432 #10669]  INFO -- : [command.rb]Running command disable_startup_buzzer[] on 000724
+I, [2016-06-02T13:20:29.033787 #10669]  INFO -- : [command.rb]Ran command disable_startup_buzzer[] on 000724
+I, [2016-06-02T13:20:29.034122 #10669]  INFO -- : [command.rb]Running command single_tone_buzzer[] on 000724
+I, [2016-06-02T13:20:30.034410 #10669]  INFO -- : [command.rb]Ran command single_tone_buzzer[] on 000724
+I, [2016-06-02T13:20:30.034637 #10669]  INFO -- : [command.rb]Running command buzzer_duration_200ms[] on 000724
+I, [2016-06-02T13:20:31.035028 #10669]  INFO -- : [command.rb]Ran command buzzer_duration_200ms[] on 000724
+I, [2016-06-02T13:20:31.035556 #10669]  INFO -- : [command.rb]Running command buzzer_before_send[] on 000724
+I, [2016-06-02T13:20:32.036057 #10669]  INFO -- : [command.rb]Ran command buzzer_before_send[] on 000724
+I, [2016-06-02T13:20:32.036635 #10669]  INFO -- : [command.rb]Running command buzzer_volume_max[] on 000724
+I, [2016-06-02T13:20:33.038421 #10669]  INFO -- : [command.rb]Ran command buzzer_volume_max[] on 000724
+I, [2016-06-02T13:20:33.038940 #10669]  INFO -- : [command.rb]Running command enable_good_read_led_200ms[] on 000724
+I, [2016-06-02T13:20:34.039314 #10669]  INFO -- : [command.rb]Ran command enable_good_read_led_200ms[] on 000724
+I, [2016-06-02T13:20:34.039645 #10669]  INFO -- : [command.rb]Running command enable_rs232_configuration[] on 000724
+I, [2016-06-02T13:20:35.039972 #10669]  INFO -- : [command.rb]Ran command enable_rs232_configuration[] on 000724
+I, [2016-06-02T13:20:35.040781 #10669]  INFO -- : [command.rb]Running command enable_rs232_trigger[] on 000724
+I, [2016-06-02T13:20:36.041332 #10669]  INFO -- : [command.rb]Ran command enable_rs232_trigger[] on 000724
+I, [2016-06-02T13:20:36.042551 #10669]  INFO -- : [command.rb]Running command enable_rs232_buzzer[] on 000724
+I, [2016-06-02T13:20:37.043060 #10669]  INFO -- : [command.rb]Ran command enable_rs232_buzzer[] on 000724
+I, [2016-06-02T13:20:37.044003 #10669]  INFO -- : [command.rb]Running command enable_rs232_good_read_led[] on 000724
+I, [2016-06-02T13:20:38.044858 #10669]  INFO -- : [command.rb]Ran command enable_rs232_good_read_led[] on 000724
+I, [2016-06-02T13:20:38.045202 #10669]  INFO -- : [command.rb]Running command disable_rs232_ack_nak[] on 000724
+I, [2016-06-02T13:20:39.045619 #10669]  INFO -- : [command.rb]Ran command disable_rs232_ack_nak[] on 000724
+I, [2016-06-02T13:20:39.046492 #10669]  INFO -- : [command.rb]Running command enable_toggle_laser[] on 000724
+I, [2016-06-02T13:20:40.046989 #10669]  INFO -- : [command.rb]Ran command enable_toggle_laser[] on 000724
+I, [2016-06-02T13:20:40.047249 #10669]  INFO -- : [command.rb]Running command send_when_function_press[] on 000724
+I, [2016-06-02T13:20:41.047533 #10669]  INFO -- : [command.rb]Ran command send_when_function_press[] on 000724
+I, [2016-06-02T13:20:41.047880 #10669]  INFO -- : [command.rb]Running command save_settings[] on 000724
+I, [2016-06-02T13:20:42.048168 #10669]  INFO -- : [command.rb]Ran command save_settings[] on 000724
+I, [2016-06-02T13:20:42.048608 #10669]  INFO -- : [command.rb]Running command set_time[2016-06-02 13:20:42 -0700] on 000724
+I, [2016-06-02T13:20:43.049492 #10669]  INFO -- : [command.rb]Ran command set_time[2016-06-02 13:20:42 -0700] on 000724
+I, [2016-06-02T13:20:43.049659 #10669]  INFO -- : [opticon_refurbisher.rb] Finished running refurb defaults on 000724
