@@ -34,12 +34,12 @@ class OpticonBarcode
       # Add a clear memory barcode at the top if speified
       run(:clear_memory) if settings[:clear_memory]
 
-      @code_39_codes << opticonBarcode.new(:set_barcode)
+      @code_39_codes << OpticonBarcode.new(:set_barcode)
 
       # run the refurb block in this context
-      instance_exec &opticonRefurbs[refurb_name]
+      instance_exec &OpticonRefurbs[refurb_name]
 
-      @code_39_codes << opticonBarcode.new(:set_barcode)
+      @code_39_codes << OpticonBarcode.new(:set_barcode)
 
       @code_39_codes + @qr_codes
     end
@@ -49,7 +49,7 @@ class OpticonBarcode
     # private method analog to opticon#run. Adds a barcode with the specified command and data
     def run(tag, *args)
       unless IGNORED_LIST.include? tag
-        barcode = opticonBarcode.new(tag, *args)
+        barcode = OpticonBarcode.new(tag, *args)
         if barcode.is_code_39?
           @code_39_codes << barcode
         elsif barcode.is_qr?
