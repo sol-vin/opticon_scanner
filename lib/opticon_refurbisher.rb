@@ -25,7 +25,7 @@ class OpticonRefurbisher
     def run_on(opticon, name, clear_memory = false)
       $LOG.info("[#{__FILE__.split(?/).last}] Running refurb #{name} on #{opticon[:serial_number]}")
       opticon.run :clear_memory if clear_memory
-      opticon.run_batch &opticonRefurbs[name]
+      opticon.run_batch &OpticonRefurbs[name]
       $LOG.info("[#{__FILE__.split(?/).last}] Finished running refurb #{name} on #{opticon[:serial_number]}")
 
     end
